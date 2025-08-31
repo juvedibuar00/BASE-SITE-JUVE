@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASE</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <hgroup>
+        <h2>Atualização</h2>
+        <h3>Saiba mais sobre o autor</h3>
+        <h2>por Juvenaldo Florentino Canja</h2>
+
+    </hgroup>
+    <style>
+        /* Aqui é um exemplo básico de como funiciona a formatação dentro do arquivo index. Entretanto, a medida que o site vai ficando com tamanho maior, fica com aparência relativamente estranho. Por isso, recomenda-se criar um arquivo CSS para lidar com estas questões e importá-lo para dentro do arquivo index. OBS. O próprio arquivo CSS pode servir para formatação e estilização de outras páginas. */
+
+        /* Como fazer isso? Basta Criar nova pasta ou um estilo solto na pasta raiz. Aqui será criada uma nova pasta chamada CSS. Dentro dela, estilo.css */
+
+        /* Dentro do arquivo estilo.css cria-se a diretiva @charset "UTF-8"
+        A diretiva @charset "UTF-8"; é usada em arquivos CSS para declarar explicitamente a codificação de caracteres utilizada.
+        */
+        /* body { */
+            /* background-image: url("fundo-oficial.png"); */
+            /* background-color: rgb(35, 137, 195); */
+            /* Aqui exibe a transparência do texto. */
+            /* color: rgb(0, 0,0, 1); */
+        /* } */
+        /* Formatação do parágrafo */
+        /* p {
+            text-align: justify;
+            text-indent: 5%;
+        } */
+    </style>
+</head>
+<body>
+    <!-- A partir da versão 5 de HTML parou de prestar atenção nas formatações. Ele se foca mais na semântica, ou seja, signficado das. Aí, Entra CSS, vai se focar em formatação e estilização da página.  -->
+
+    <!-- i e em. Diferenças, span, text-indent:50px-->
+     <!-- tag bgcolor foi extinta da versão 4 para 5 -->
+
+    <p>
+        Doutor e Mestre em Engenharia Agrícola, Irrigação e Drenagem. Graduado em Agronomia, Pós graduado em Ciência de Dados, Meio Ambiente e Sustentabilidade. Graduando em Ciência da Computação. Domínio no ramo das tecnologias, professor de Informática Aplicada aos processos estatísticos e uso de inteligência computacional, automação e controle, IoT. Desenvolvedor Full Stack. Comunicativo, proativo, habilidade em colaboração, senso de liderança, resolução de problemas, controle e inteligência emocional. Atualmente, professor no Centro Universitário UniFanor Wyden. Disposto em aprender e contribuir profissionalmente na área da docência e afins.
+    </p>
+
+    <!-- Se imagem estiver em outro diretório, use barra para localizar -->
+
+    <!-- Usando figure -->
+     <figure class="foto-legenda">
+    <img src="juve-foto.jpg" alt="">
+    <!-- Inserindo a legenda com figcaption, nova no html5. -->
+     <figcaption>
+        <h5>Juvenaldo Florentino</h5>
+     </figcaption>
+     </figure>
+
+     <nav id="menu"> <!-- Criando uma nav -->
+        <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="sobre.html" target="_blank">Sobre</a></li>
+        <li><a href="suporte.html">Suporte</a></li>
+        <li><a href="links.html">Links uteis</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        </ul>
+       <!-- Observe que quando forem exibidos na pagina, aparecem numeros na lista. Para retirar, basta criar um id com nome. Para o efeito, id ="menu" -->
+     </nav>
+     <!-- Criando uma nova nav -->
+
+</body>
+</html>
